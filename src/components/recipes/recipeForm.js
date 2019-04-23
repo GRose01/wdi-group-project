@@ -1,6 +1,6 @@
 import React from 'react'
 import Select from 'react-select'
-import Container from '../Container'
+import Container from '../container'
 
 const RecipeForm = ({ handleChange, handleSubmit, handleSelect, data, errors, categories, openModal, image }) => {
   return (

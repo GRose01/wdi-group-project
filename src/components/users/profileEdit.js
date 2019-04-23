@@ -1,7 +1,7 @@
 import React from 'react'
 import axios from 'axios'
 import Select from 'react-select'
-import Container from '../Container'
+import Container from '../container'
 
 import * as filestack from 'filestack-js'
 const client = filestack.init('AYoVZLJZuQ2GNd6qd87SYz')
