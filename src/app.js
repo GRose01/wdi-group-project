@@ -29,14 +29,6 @@ import ErrorPage from './components/errorPage'
 // import axios from 'axios'
 
 class App extends React.Component {
-  // componentDidMount() {
-  //   axios.get('/api/examples')
-  //     .then(res => console.log(res.data))
-  //     .catch(err => console.log(err))
-  // }
-
-
-
   render() {
     return (
       <Browser>

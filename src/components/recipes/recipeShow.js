@@ -40,9 +40,6 @@ class recipeShow extends React.Component {
     this.handleDelete = this.handleDelete.bind(this)
     this.handleSubmit = this.handleSubmit.bind(this)
     this.handleChange = this.handleChange.bind(this)
-
-
-
     this.handleClick = this.handleClick.bind(this)
     this.handleLike = this.handleLike.bind(this)
     // this.handleUnlike = this.handleUnlike.bind(this)
