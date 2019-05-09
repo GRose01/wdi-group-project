@@ -1,6 +1,6 @@
 # General Assembly WDI Project 3: A MERN Stack App
 
-[Portfolio Link](https://munch-ga.herokuapp.com/)
+[Munch Link](https://munch-ga.herokuapp.com/)
 
 Munch was the first MERN stack app I had built. It incorporated everything we had learned in the previous 8 weeks, including React, JavaScript and MongoDB.
 
@@ -190,11 +190,11 @@ We used the CSS framework Bulma to style our app. This would take some of the he
 
 In future I would avoid using Bulma as we found it quite difficult to customise once we had applied its classes, and ended up being quite a time drain.
 
-___
+---
 
-### Wins and Blockers
+### Wins and Challenges
 
-One of the biggest blockers for this project was creating a substantial seeds file that incorporated promises. As some models relied on other models in order to be created, we had to establish multiple promises in the seeds file in order for the database to accept certain models. For instance, in order for a review to exist, it must first have a user and categories in order to create the review - so we would create the user and categories first and then promise them to the review seed.
+One of the biggest challenges for this project was creating a substantial seeds file that incorporated promises. As some models relied on other models in order to be created, we had to establish multiple promises in the seeds file in order for the database to accept certain models. For instance, in order for a review to exist, it must first have a user and categories in order to create the review - so we would create the user and categories first and then promise them to the review seed.
 
 ``` JavaScript
      return Promise.all([
@@ -213,7 +213,8 @@ One of the biggest blockers for this project was creating a substantial seeds fi
 ```
 
 As for wins, I'm really pleased with how the backend works and allows the user to do everything a normal social media platform would. The friends request system and the pinned items are particularly slick, allowing users to customise their experience of the site easily and efficiently. The newsfeed also works really nicely, making it feel like a real service.
-___
+
+---
 
 ## Future Features
 
@@ -223,3 +224,11 @@ If we had more time essential future features we would like to add include:
 * Ability to un-pin items and un-like reviews/recipes.
 * A shopping list functionality so you could keep all the ingredients you needed for your next shop on your app.
 * A simple cooking timer on the recipe pages to assist with timekeeping.
+
+---
+
+## Key Learnings
+
+This project was a a brilliant learning curve about working in a group, managing team dynamics and delegating code accordingly as well as helping over come problems together. As git master I had to make sure everyone was working together and avoiding conflicts in our code. Meeting internal deadlines, as well as external MVP and final hand-ins, was a good motivator for efficient time management.
+
+Apart from working as a team, I learned the process of creating a back end, and connecting it to a front end successfully, from the very beginning to presenting our finished product.
