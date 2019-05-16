@@ -33,7 +33,7 @@ In 9 days and in groups of 4 we had to:
 * Yarn
 * Bulma
 
-## Approach Taken
+## Approach Taken and Division of Work
 
 In our team of 4 we created Munch, a social networking site for foodies, bringing together restaurant reviews and recipes all in one place. My part in the project included pair coding the models in Node.js, and creating the controllers. Individually I worked on building the 'like' function, the recipe and review forms, populating the newsfeed with filtered information depending on the users specified preferences, creating the seeds file and styling.
 
